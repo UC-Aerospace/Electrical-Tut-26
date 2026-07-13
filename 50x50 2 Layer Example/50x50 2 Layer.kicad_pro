@@ -640,6 +640,18 @@
           "group_by": false,
           "label": "LCSC Part Number",
           "name": "LCSC Part Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
           "show": false
         }
       ],
@@ -698,7 +710,7 @@
         "uuid": "b892e170-ef0c-4b15-b39f-f71a7f152a1f"
       }
     ],
-    "used_designators": "SW1,SW3,#PWR1-2,#PWR5,#PWR14,#PWR37-40,D1-3,D9-10,F1,TP1,TP16,R21-22,J1,U5",
+    "used_designators": "SW1-3,D1-10,#PWR1-52,TP1,TP16,F1,J1-4,R1-23,U1-5,C1-22,L1-2,BZ1,Q1,H1-4,Y1",
     "variants": []
   },
   "sheets": [

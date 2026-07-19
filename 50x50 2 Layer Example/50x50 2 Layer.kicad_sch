@@ -14436,7 +14436,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
 			(at 71.12 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -14447,7 +14447,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-c-k-slide-os-series-datasheet?assetguid=f8954ac2-65ba-431f-af55-b0493370575e"
 			(at 71.12 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -19131,7 +19131,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
 			(at 35.56 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -19142,7 +19142,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-c-k-slide-os-series-datasheet?assetguid=f8954ac2-65ba-431f-af55-b0493370575e"
 			(at 35.56 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -21991,7 +21991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NR-40xx_HandSoldering"
 			(at 233.68 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -22002,7 +22002,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/610/NRS4018T3R3MDGJ_SS.pdf"
 			(at 233.68 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -22869,7 +22869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Buzzer_Beeper:MagneticBuzzer_CUI_CST-931RP-A"
 			(at 276.225 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -22880,7 +22880,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/cst-931ap.pdf"
 			(at 276.225 85.09 90)
 			(hide yes)
 			(show_name no)

@@ -8583,6 +8583,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 154.94) (xy 373.38 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ca434dd-6c50-411e-99de-e15f7ee3da46")
+	)
+	(wire
+		(pts
 			(xy 257.81 100.33) (xy 262.89 100.33)
 		)
 		(stroke
@@ -9193,6 +9203,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 157.48) (xy 373.38 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55877f7f-60d9-419f-819e-a775ec866ab7")
+	)
+	(wire
+		(pts
 			(xy 116.84 227.33) (xy 116.84 231.14)
 		)
 		(stroke
@@ -9330,6 +9350,16 @@
 			(type default)
 		)
 		(uuid "60768635-8a81-432e-a2de-d540c5b31038")
+	)
+	(wire
+		(pts
+			(xy 361.95 189.23) (xy 372.11 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60c76c43-452b-4f16-b638-34b85c2603c3")
 	)
 	(wire
 		(pts
@@ -10333,6 +10363,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 184.15) (xy 372.11 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf172aac-b0c4-4854-af5a-5ffdeda0aa88")
+	)
+	(wire
+		(pts
 			(xy 219.71 57.15) (xy 219.71 58.42)
 		)
 		(stroke
@@ -11271,6 +11311,16 @@
 		)
 		(uuid "2deeeea6-3401-44b1-a5c3-df7a6e3e98b0")
 	)
+	(label "I2C1_SCL"
+		(at 361.95 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "306f2829-b2a4-4d87-b201-44b89caf2959")
+	)
 	(label "USB_D+"
 		(at 243.84 181.61 0)
 		(effects
@@ -11370,6 +11420,16 @@
 			(justify right bottom)
 		)
 		(uuid "549590d9-ddbf-4b91-9032-e4bca799f392")
+	)
+	(label "I2C1_SDA"
+		(at 361.95 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "598dfe98-380b-4bea-9835-441f7d05882b")
 	)
 	(label "I2C1_SDA"
 		(at 317.5 212.09 180)
@@ -11481,6 +11541,16 @@
 		)
 		(uuid "86138b05-e534-43fe-9f24-21dc60a8416e")
 	)
+	(label "I2C0_SCL"
+		(at 363.22 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8dff9f0b-d606-4f82-8388-89dfadc99ae1")
+	)
 	(label "I2C0_SDA"
 		(at 317.5 217.17 180)
 		(effects
@@ -11490,6 +11560,16 @@
 			(justify right bottom)
 		)
 		(uuid "8eedbf6c-29b2-4877-bd4d-6026803b19bb")
+	)
+	(label "I2C0_SDA"
+		(at 363.22 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a38adf13-4aa3-48c0-a9ab-99076914de30")
 	)
 	(label "GPIO_3"
 		(at 317.5 163.83 180)
@@ -11773,30 +11853,6 @@
 			)
 		)
 	)
-	(global_label "I2C1_SCL"
-		(shape input)
-		(at 372.11 184.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3befe043-496c-46b0-b280-0c91576bf84f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 360.3558 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "USB_DET"
 		(shape input)
 		(at 317.5 156.21 0)
@@ -11845,30 +11901,6 @@
 			)
 		)
 	)
-	(global_label "I2C0_SDA"
-		(shape input)
-		(at 373.38 154.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aba8711e-a8aa-4296-8ea8-58eb6a2bea9b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 361.5653 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "INT_1"
 		(shape output)
 		(at 355.6 186.69 180)
@@ -11882,30 +11914,6 @@
 		(uuid "b3fe4866-f35a-467b-b31e-13183da1b1b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 347.5348 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "I2C1_SDA"
-		(shape input)
-		(at 372.11 189.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bae36ee7-134f-43c4-9ba9-4eea6778c54b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 360.2953 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11962,30 +11970,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "I2C0_SCL"
-		(shape input)
-		(at 373.38 157.48 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f6fbf64a-d2e6-437f-b12d-7d649e3790e8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 361.6258 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)

@@ -11,7 +11,7 @@
 		(company "UC Aerospace")
 	)
 	(lib_symbols
-		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -30,7 +30,7 @@
 					)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0_14P"
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
 				(at 0 19.685 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -62,7 +62,7 @@
 					)
 				)
 			)
-			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -95,7 +95,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -184,8 +184,30 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -386,7 +408,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
@@ -470,6 +492,24 @@
 						)
 					)
 					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -607,6 +647,24 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 15.24 15.24 180)
 					(length 5.08)
@@ -655,7 +713,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5748,6 +5806,265 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SW_DPDT_x2_1"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW1"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_SELECT"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Footprints:SW-TH_G-SWITCH_SS-22F12-G060"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-c-k-slide-os-series-datasheet?assetguid=f8954ac2-65ba-431f-af55-b0493370575e"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, dual pole double throw, separate symbols"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch dual-pole double-throw DPDT spdt ON-ON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SW*DPDT*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_1_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_1_0_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.5748 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_1_1_1"
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_1_2_1"
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Sense:Sense_Calistated"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5940,8 +6257,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
+			(property "Reference" "SW1"
+				(at 0 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -5950,8 +6267,8 @@
 					)
 				)
 			)
-			(property "Value" "SW_DPDT_x2"
-				(at 0 -5.08 0)
+			(property "Value" "PWR_SELECT"
+				(at 0 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -5960,7 +6277,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Footprints:SW-TH_G-SWITCH_SS-22F12-G060"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5971,7 +6288,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-c-k-slide-os-series-datasheet?assetguid=f8954ac2-65ba-431f-af55-b0493370575e"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6077,7 +6394,7 @@
 			)
 			(symbol "SW_DPDT_x2_1_1"
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 -2.54 180)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -6113,7 +6430,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "C"
 						(effects
@@ -6133,7 +6450,7 @@
 			)
 			(symbol "SW_DPDT_x2_2_1"
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 -2.54 180)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -6169,7 +6486,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "C"
 						(effects
@@ -6353,7 +6670,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPST"
+		(symbol "Switch:SW_Push_SPDT"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -6364,7 +6681,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SW"
-				(at 0 3.175 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -6373,8 +6690,8 @@
 					)
 				)
 			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
+			(property "Value" "SW_Push_SPDT"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -6405,7 +6722,7 @@
 					)
 				)
 			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
+			(property "Description" "Momentary Switch, single pole double throw"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6416,7 +6733,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "switch lever"
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6427,7 +6744,7 @@
 					)
 				)
 			)
-			(symbol "SW_SPST_0_0"
+			(symbol "SW_Push_SPDT_0_0"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -6441,7 +6758,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
+						(xy 0 1.016) (xy 0 3.048)
 					)
 					(stroke
 						(width 0)
@@ -6452,7 +6769,7 @@
 					)
 				)
 				(circle
-					(center 2.032 0)
+					(center 2.032 -2.54)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -6463,9 +6780,45 @@
 					)
 				)
 			)
-			(symbol "SW_SPST_1_1"
+			(symbol "SW_Push_SPDT_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.2032) (xy 2.3368 1.9812)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Push_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -6483,7 +6836,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "B"
 						(effects
@@ -6493,6 +6846,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7844,12 +8215,6 @@
 		(uuid "70bac2cc-5d61-41c8-afab-a7957636ea66")
 	)
 	(junction
-		(at 40.64 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72d01ed9-6253-49d4-925b-63d9cdf2191d")
-	)
-	(junction
 		(at 284.48 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7908,6 +8273,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9148effe-e08b-41bb-a03f-3a34f7bccadd")
+	)
+	(junction
+		(at 40.64 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "940a7dea-7eed-44b6-b9f7-5ec196b21164")
 	)
 	(junction
 		(at 280.67 146.05)
@@ -8062,6 +8433,10 @@
 		(uuid "59924418-0fb5-45af-9b08-c2a5ac8d2ede")
 	)
 	(no_connect
+		(at 55.88 64.77)
+		(uuid "868089aa-c47b-4c3f-b2da-069f3e8a90cf")
+	)
+	(no_connect
 		(at 254 189.23)
 		(uuid "8b394318-7ca6-4548-a3b4-d17bed975e1a")
 	)
@@ -8070,12 +8445,20 @@
 		(uuid "8bad786a-7f88-4a47-b781-bf9339ff101f")
 	)
 	(no_connect
+		(at 55.88 62.23)
+		(uuid "9183fc58-5e82-4ffc-ba0f-3c8f9c51a010")
+	)
+	(no_connect
 		(at 254 199.39)
 		(uuid "a3804b2a-7281-4794-ae03-91d287e14481")
 	)
 	(no_connect
 		(at 254 194.31)
 		(uuid "cc1d4935-e5a0-4e6b-8353-79672ace9b10")
+	)
+	(no_connect
+		(at 93.98 205.74)
+		(uuid "cd6d45c0-8497-466b-9a53-285e83b0f4d4")
 	)
 	(no_connect
 		(at 250.19 46.99)
@@ -8743,7 +9126,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 203.2) (xy 97.79 203.2)
+			(xy 93.98 200.66) (xy 97.79 200.66)
 		)
 		(stroke
 			(width 0)
@@ -9453,6 +9836,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 76.2) (xy 40.64 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6664d189-62ff-4726-a26b-3f5f42432bf7")
+	)
+	(wire
+		(pts
 			(xy 386.08 54.61) (xy 389.89 54.61)
 		)
 		(stroke
@@ -9523,7 +9916,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 203.2) (xy 97.79 200.66)
+			(xy 97.79 200.66) (xy 97.79 198.12)
 		)
 		(stroke
 			(width 0)
@@ -10050,6 +10443,16 @@
 			(type default)
 		)
 		(uuid "a22550de-d988-4fb4-a692-71a6b4c71c14")
+	)
+	(wire
+		(pts
+			(xy 33.02 76.2) (xy 40.64 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2689fdd-6961-4476-9f2b-a8766a04243c")
 	)
 	(wire
 		(pts
@@ -11100,16 +11503,6 @@
 			(type default)
 		)
 		(uuid "f54ae55b-dc3e-4f71-9e6d-4936c8f15c63")
-	)
-	(wire
-		(pts
-			(xy 40.64 78.74) (xy 40.64 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5a8018c-cf11-467d-9f4f-09e738d1a4e1")
 	)
 	(wire
 		(pts
@@ -12364,7 +12757,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 60.96 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -12429,107 +12822,6 @@
 			(project "50x50 2 Layer"
 				(path "/b892e170-ef0c-4b15-b39f-f71a7f152a1f"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 36.83 76.2 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "05d3dc14-5820-4f28-bdd3-325491059d2c")
-		(property "Reference" "R1"
-			(at 36.83 71.12 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 36.83 73.66 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 36.83 77.978 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F0000T5E_C17477.pdf"
-			(at 36.83 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 36.83 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Number" "C17477"
-			(at 36.83 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0805W8F0000T5E"
-			(at 36.83 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6fad92c2-5b08-4471-b092-1bffd7bdc230")
-		)
-		(pin "1"
-			(uuid "e3ecf919-5d6b-4951-8e4d-afb162c98e74")
-		)
-		(instances
-			(project "50x50 2 Layer"
-				(path "/b892e170-ef0c-4b15-b39f-f71a7f152a1f"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -12955,86 +13247,6 @@
 			(project "50x50 2 Layer"
 				(path "/b892e170-ef0c-4b15-b39f-f71a7f152a1f"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 88.9 203.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16acd68a-84d9-42bb-8507-d7e15bff36eb")
-		(property "Reference" "SW2"
-			(at 88.9 196.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ON_SW"
-			(at 88.9 199.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 88.9 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cc920ef6-d62a-4a34-a7e8-c9e9e3a39bc7")
-		)
-		(pin "2"
-			(uuid "aae39789-c1a0-4359-878a-78aa3087b862")
-		)
-		(instances
-			(project "50x50 2 Layer"
-				(path "/b892e170-ef0c-4b15-b39f-f71a7f152a1f"
-					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -13813,7 +14025,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 181.61 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -14401,7 +14613,7 @@
 		(dnp no)
 		(uuid "31f2dd04-a970-4564-a7c6-9e5ea1b666e1")
 		(property "Reference" "SW1"
-			(at 71.12 195.326 0)
+			(at 71.12 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14411,7 +14623,7 @@
 			)
 		)
 		(property "Value" "PWR_SELECT"
-			(at 71.12 197.866 0)
+			(at 71.12 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14420,7 +14632,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
+		(property "Footprint" "Footprints:SW-TH_KH-SS22D07-VG4H"
 			(at 71.12 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -15071,7 +15283,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 97.79 200.66 0)
+		(at 97.79 198.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15082,7 +15294,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b6ec396-9a42-41c0-97be-bc5c842e4599")
 		(property "Reference" "#PWR017"
-			(at 97.79 204.47 0)
+			(at 97.79 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15093,7 +15305,7 @@
 			)
 		)
 		(property "Value" "VOUT"
-			(at 97.79 195.58 0)
+			(at 97.79 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15103,7 +15315,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 200.66 0)
+			(at 97.79 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15114,7 +15326,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 200.66 0)
+			(at 97.79 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15125,7 +15337,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 97.79 200.66 0)
+			(at 97.79 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15986,7 +16198,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 43.18 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -17061,6 +17273,88 @@
 			(project "50x50 2 Layer"
 				(path "/b892e170-ef0c-4b15-b39f-f71a7f152a1f"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Buzzer")
+		(at 276.86 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73030f97-4c15-4942-85fd-d692e9ed2986")
+		(property "Reference" "BZ2"
+			(at 280.67 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Buzzer"
+			(at 280.67 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Buzzer_Beeper:Buzzer_Murata_PKMCS0909E"
+			(at 276.225 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/cst-931ap.pdf"
+			(at 276.225 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Buzzer, polarized"
+			(at 276.86 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31363f2d-39a4-42e2-8a60-c64af56b97bb")
+		)
+		(pin "2"
+			(uuid "c7d211f8-fc69-438e-8acd-cbe901cdbeb9")
+		)
+		(instances
+			(project "50x50 2 Layer"
+				(path "/b892e170-ef0c-4b15-b39f-f71a7f152a1f"
+					(reference "BZ2")
 					(unit 1)
 				)
 			)
@@ -19084,6 +19378,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SW_DPDT_x2_1")
 		(lib_id "Switch:SW_DPDT_x2")
 		(at 35.56 236.22 0)
 		(unit 2)
@@ -19115,7 +19410,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
+		(property "Footprint" "Footprints:SW-TH_KH-SS22D07-VG4H"
 			(at 35.56 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -20978,6 +21273,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push_SPDT")
+		(at 88.9 203.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0130897-eb7e-490c-b515-626b6845a064")
+		(property "Reference" "SW4"
+			(at 88.9 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ON_SW"
+			(at 88.9 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:SW-TH_3P-L8.6-W4.5-P2.60"
+			(at 88.9 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Momentary Switch, single pole double throw"
+			(at 88.9 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8bf46bab-a072-4849-814d-9de9b6d2a502")
+		)
+		(pin "3"
+			(uuid "afa96d8f-01dc-4d33-b6d5-dcbc61074db9")
+		)
+		(pin "2"
+			(uuid "03f6c91b-443d-4646-aeb4-4d191880f1f5")
+		)
+		(instances
+			(project "50x50 2 Layer"
+				(path "/b892e170-ef0c-4b15-b39f-f71a7f152a1f"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 379.73 124.46 0)
 		(mirror x)
@@ -21581,7 +21959,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sense Board:UCA_Sense"
+		(property "Footprint" "Footprints:UCA_Sense"
 			(at 381 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -22359,7 +22737,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 40.64 49.53 0)
 		(unit 1)
 		(body_style 1)
@@ -22390,7 +22768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
 			(at 44.45 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -22401,7 +22779,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2303271630_G-Switch-GT-USB-7010ASV_C2988369.pdf"
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 44.45 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -22412,7 +22790,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 40.64 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -22460,7 +22838,7 @@
 		(pin "B6"
 			(uuid "41ae3d4d-fb98-4b54-b490-48399477b992")
 		)
-		(pin "S1"
+		(pin "SH"
 			(uuid "fdf12073-8f2a-486f-85ae-31df2dc93bbf")
 		)
 		(pin "A1"
@@ -22489,6 +22867,12 @@
 		)
 		(pin "B1"
 			(uuid "ac40269a-b3d0-4bb2-9d3f-311de8f30969")
+		)
+		(pin "A8"
+			(uuid "2950ef0e-6063-41ed-bf08-fec369effae4")
+		)
+		(pin "B8"
+			(uuid "f1234894-8fc5-403d-bafa-83a9a077b69f")
 		)
 		(instances
 			(project "50x50 2 Layer"
@@ -22814,88 +23198,6 @@
 			(project "50x50 2 Layer"
 				(path "/b892e170-ef0c-4b15-b39f-f71a7f152a1f"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Buzzer")
-		(at 276.86 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6a3d313-e4b3-449b-8e6d-902d7569a7f3")
-		(property "Reference" "BZ1"
-			(at 280.67 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Buzzer"
-			(at 280.67 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Buzzer_Beeper:MagneticBuzzer_CUI_CST-931RP-A"
-			(at 276.225 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/cst-931ap.pdf"
-			(at 276.225 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Buzzer, polarized"
-			(at 276.86 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "29f127fd-3beb-4d64-917b-1cd376e24e79")
-		)
-		(pin "2"
-			(uuid "ba85545b-ae15-4abf-bf73-cab9802239aa")
-		)
-		(instances
-			(project "50x50 2 Layer"
-				(path "/b892e170-ef0c-4b15-b39f-f71a7f152a1f"
-					(reference "BZ1")
 					(unit 1)
 				)
 			)
